@@ -23,7 +23,8 @@ public interface BumenDao extends BaseMapper<BumenEntity> {
 	List<BumenVO> selectListVO(@Param("ew") Wrapper<BumenEntity> wrapper);
 	
 	BumenVO selectVO(@Param("ew") Wrapper<BumenEntity> wrapper);
-	
+
+
 	List<BumenView> selectListView(@Param("ew") Wrapper<BumenEntity> wrapper);
 
 	List<BumenView> selectListView(Pagination page,@Param("ew") Wrapper<BumenEntity> wrapper);
